@@ -22,9 +22,13 @@
 - Sept. 2015, Both merged and "Node.js Foundation formed".
 - In 2019, JS Foundation and Node.js Foundation merged and formed "OpenJS Foundation" which is maintaining Node.js.
 
-## 1. JS on the Server
+## 2. JS on the Server
 - JS Engine is written in C++
 - Node.js is simply C++ application with V8 engine embedded into it.
 - V8 can be embedded in Any C++ aplication.
 - V8 needs to follow ECMA Standards.
 - When we write code in high level language like JS, C++ (JS Engine) converts that code in machine code which in understood by computer in binary (0s and 1s).
+
+## 3. Let's write code
+- In browser, the keywords like "window", "this", "self", "frames" points to the same global object. But in Node.js only "global" keyword works.
+- Currently, JS Committe decided "globalThis" for all 
